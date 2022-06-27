@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Source+Sans+Pro&display=swap');
+
+.전체 {
+    padding: 0;
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 20px 20px 20px ;
+}
+.전체>* {
+    position: absolute;
+}
+.배경 {
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(190deg,#090055 30%,#742afc 90%);
+}
+.바닥 {
+    width: 500px;
+    height: 70px;
+    background: radial-gradient(ellipse at top,#464588,#06030c);
+    top: 540px;
+}
+.건물 {
+    width: 500px;
+    height: 60px;
+    background: linear-gradient(#302f7c,#060029);
+    top: 480px;
+}
+.산 {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(24, 24, 26);
+    top: 280px;
+    clip-path: polygon(0 91%, 10% 90%, 20% 91%, 31% 89%, 41% 92%,
+                        50% 85%, 58% 81%, 68% 85%, 81% 78%, 92% 81%,
+                        98% 78%, 100% 81%, 100% 100%, 0 100%);
+}
+.가로등 {
+    width: 10px;
+    height: 200px;
+    background-color: rgb(119, 111, 111);
+    left: 457px;
+    top: 349px;
+}
+.가로등_불빛 {
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    left: 433px;
+    top: 309px;
+    clip-path: polygon(34% 100%, 63% 100%, 78% 34%, 60% 19%, 48% 0,
+                        36% 19%, 17% 34%);
+
+}
+.기둥1 {
+    width: 20px;
+    height: 60px;
+    background-color: rgb(31, 31, 31);
+    top: 485px;
+    left: 240px;
+}
+.기둥2 {
+    width: 20px;
+    height: 50px;
+    background-color: rgb(31, 31, 31);
+    top: 495px;
+    left: 350px;
+}
+.여자 {
+    width: 200px;
+    height: 198px;
+    background-color: yellow;
+    top: 406px;
+    left: 20px;
+    clip-path: polygon(15% 7%, 42% 21%, 41% 33%, 37% 42%, 39% 53%,
+                        22% 57%, 36% 57%, 39% 61%, 48% 60%, 48% 79%,
+                        54% 79%, 51% 75%, 52% 61%, 57% 62%, 49% 43%,
+                        54% 31%, 54% 25%, 64% 30%, 83% 34%, 64% 26%,
+                        59% 22%, 53% 20%, 53% 16%, 52% 8%, 43% 8%,
+                        44% 17%);
+}
+.남자 {
+    width: 230px;
+    height: 260px;
+    background: linear-gradient(white 20%, black 35%);
+    top: 387px;
+    left: 55px;
+    clip-path: polygon(42% 17%, 39% 18%, 34% 24%, 18% 31%, 37% 27%,
+                        40% 23%, 42% 32%, 36% 48%, 40% 63%, 36% 66%,
+                        45% 66%, 41% 47%, 43% 51%, 41% 54%, 48% 49%,
+                        46% 48%, 52% 35%, 51% 32%, 53% 22%, 61% 20%,
+                        66% 13%, 71% 11%, 63% 12%, 59% 17%, 54% 18%,
+                        49% 17%, 49% 11%, 42% 11%);
+}
+.이름 {
+    position: absolute;
+    color: white;
+    font-family: 'Belleza', sans-serif;
+    font-size: 15px;
+    top: 166px;
+    left: 23px;
+    letter-spacing: 2px;
+    transform: scale(0.95);
+}
+h1 {
+    position: absolute;
+    color: white;
+    font-family: 'Belleza', sans-serif;
+    margin: 17px;
+    top: 175px;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+.디렉터 {
+    position: absolute;
+    color: white;
+    font-family: 'Belleza', sans-serif;
+    top: 243px;
+    left: 14px;
+    font-size: 1px;
+    transform: scale(0.8);
+}
+.작은글자 {
+    position: absolute;
+    color: white;
+    font-family: 'Belleza', sans-serif;
+    top: 110px;
+    left: -9px;
+    font-size: 1px;
+    transform: scale(0.6);
+    letter-spacing: 1px;
+}
+img {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    z-index: 10;
+    display: block;
+}
+img:hover {
+    display: none;
+}
